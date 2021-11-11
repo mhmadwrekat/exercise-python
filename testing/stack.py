@@ -30,14 +30,25 @@ class Stack :
         except EmptyStack :
             raise EmptyStack('Its Empty')
 
-    def peek(self) : 
-        pass
-
-    def isEmpty(self) : 
-        pass
-
+    def stackEmpty(self) : 
+        return self.top == None
+    
+    def stackPeek(self):
+        if not self.top:
+            raise Exception('Its Empty')
+        else:
+            return self.top
 
 
 if __name__ =="__main__":
     view()
+    stack = Stack()
+    stack.push('mhmad')
     view()
+    """
+        def peek(self) : 
+        try :
+            return self.top
+        except EmptyStack :
+            return EmptyStack('Its Empty')
+    """
