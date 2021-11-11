@@ -1,3 +1,5 @@
+from testing.node import Node
+
 """
 Linked List
 """
@@ -5,12 +7,6 @@ def view():
     print('\n|------------------------------------------|')
 def view2():
     print('\n--------------------------------')
-class Node :
-    def __init__(self, value):
-        self.value = value
-        self.next = None
-    def __str__(self):
-        return f'{self.value}'
 
 class LinkedList :
     def __init__(self):

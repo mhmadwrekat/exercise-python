@@ -1,5 +1,6 @@
-def view():
-    print('\n|------------------------------------------|')
+from testing.node import Node
+
+
 """
 Linked List
 """
