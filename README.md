@@ -16,21 +16,21 @@
 ---
 ## Stack
 
-[Code .......](/other/tests/stack.py)
+[Code .......](/other/other/stack.py)
 
 [Testing ....](/other/tests/test_stack.py)
 
 ---
 ## Queue
 
-[Code .......](/other/tests/queue.py)
+[Code .......](/other/other/queue.py)
 
 [Testing ....](/other/tests/test_queue.py)
 
 ---
 ## Reverse Linked List
 
-[Code .......](/other/tests/reverseLinkedList.py)
+[Code .......](/other/other/reverseLinkedList.py)
 
 ---
 
